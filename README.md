@@ -1,0 +1,1 @@
+I was going over some Rust, and then some C, and realised I need to find a job, so I am trying out C++ after Ajay kept telling me it's better. I'll let you know my opinions in a few days.
