@@ -41,15 +41,17 @@ int main ()
     }
 
     // sort by fitness rank
-    std::sort(solutions.begin(), solutions.end  (), [](const auto& lhs, const auto& rhs)
-        {
-            return lhs.rank > rhs.rank;
-        }
-    ); 
+    std::sort(solutions.begin(), solutions.end(), [](const auto &lhs, const auto &rhs)
+              { return lhs.rank > rhs.rank; });
 
-    std::for_each(solutions.begin(), solutions.end() +10,[](const auto& s)
-    {
-        std::cout << std::fixed << "Rank " << static_cast<int>(s.rank) << "\n x:" << s.x << " y:" << s.y << "z:" >> s.z << " \n";        
-    }
-    )
+    std::for_each(
+        solutions.begin(), 
+        solutions.end() +10,
+        [](const auto& s)
+        {
+            std::cout << std::fixed << "Rank " << static_cast<int>(s.rank) << "\n x:" << s.x << " y:" << s.y << "z:" << s.z << " \n";        
+        }
+        );
+
+    return 0;
 }
