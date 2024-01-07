@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+// Original Author - Caleb Curry 
 class Person
 {
     private:
