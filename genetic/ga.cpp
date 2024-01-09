@@ -14,7 +14,11 @@
 // - sort our solutions by rank
 // - print solutions
 // - take top 1000 solutions
-// -  
+// - clear solutions
+// - create a new random distribution
+// - go thru every solution and multiply current solution by a random number
+// - recombine old solution with new solution and create offspring
+
 
 struct Solution
 {
